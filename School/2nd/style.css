@@ -33,12 +33,13 @@ body {
 }
 
 #container i{
-    color: #fff;
+    color: #ff5471;
     position: absolute;
     top: 50%;
+    transition: transform ease 0.5s;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
     font-size: 75px;
-    opacity: 0.8;
+    opacity: 0;
 }
  
