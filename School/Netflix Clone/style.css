@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1400px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    z-index: 1;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 780;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(46, 46, 46);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(237, 230, 230, 0.022);
+    color: white;
+    border: 1px solid rgba(225, 213, 213, 0.297);
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+    font-weight: 900;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 74vw;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.secimg img {
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    right: -50px;
+}
+
+.secimg {
+    position: relative;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.first div span {
+    margin-bottom: 30px;
+}
+
+.secimg video {
+    position: absolute;
+    top: 74px;
+    margin-left: 130px;
+    width: 30vw;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.second {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vw;
+}
+
+.second div :nth-child(1) {
+    font-size: 3rem;
+    position: relative;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.second div :nth-child(2) {
+    font-size: 25px;
+    position: relative;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.second div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+
+.second span img {
+    width: 35vw;
+    /* position: relative; */
+    margin-left: 200px;
+    margin-bottom: 10vw;
+    margin-top: 40px;
+}
+
+.third {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 74vw;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.third div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.third div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.third div {
+    display: flex;
+    flex-direction: column;
+}
+
+.third .secimg video {
+    width: 26vw;
+    position: absolute;
+    left: 20px;
+}
+
+.faq {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.faq>span {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 10dvh;
+    padding: 20px;
+    font-style: bolder;
+}
+
+.faq ol li {
+    width: 75vw;
+    height: 12vh;
+    border: none;
+    list-style: none;
+    background-color: #414141;
+    font-size: 23px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq ol {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.faq ol li span {
+    position: relative;
+    left: 20px;
+}
+
+.faq ol li img {
+    width: 60px;
+    height: 60px;
+}
+
+.ask span {
+    font-size: 20px;
+}
+
+.ask {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.input {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.input input {
+    padding: 14px 101px 8px 14px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.input button {
+    background-color: #c11119;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    filter: saturate(2);
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+footer div {
+    color: #A7AFA7;
+}
+
+footer {
+    padding: 6vw 25vh;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+
+footer ul li button {
+    padding: 7px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 2px;
+    background-color: #41414125;
+    border: 2px solid  #A7AFA7;
+}
+
+footer .grid {
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+}
