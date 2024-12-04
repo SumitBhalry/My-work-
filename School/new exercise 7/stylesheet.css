@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.div img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+
+.right {
+    padding: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    margin: 70px;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 44vw;
+    text-align: center;
+}
+
+.btn {
+    padding: 14px 16px;
+    color: white;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.second {
+
+    max-width: 70vw;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.item {
+    padding: 23px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    font-size: 20px;
+}
+
+.item-lang {
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download {
+    position: relative;
+    right: 20px;
+    margin-bottom: 30px;
+}
+
+.download img {
+    height: 70px;
+    width: 70px;
+    padding-right: 20px;
+}
+
+.large {
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.pix {
+    position: relative;
+    bottom: 20px;
+}
+
+@media screen and (max-width:1145px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+
+    }
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.black {
+    background-color: #222222;
+    height: 50vw;
+    color: white;
+}
+
+
+.login {
+    width: 380px;
+    height: 290px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    color: black;
+    position: relative;
+    bottom: 50vh;
+    left: 130vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h2 {
+    color: #00b6d1;
+    padding: 35px;
+}
+
+.login button {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #00b6d1;
+    width: 285px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login input {
+    width: 285px;
+    height: 55px;
+    border: solid #bbb 1px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.one {
+
+    max-width: 30vw;
+    text-align: center;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    left: 230px;
+}
+
+.one h2 {
+    padding: 20px;
+}
+
+.two {
+    bottom: 200px;
+    position: relative;
+    max-width: 70vw;
+    left: 200px;
+}
+
+.two h2 {
+    padding: 15px;
+    right: 10px;
+    position: relative;
+    font-weight: 600;
+
+}
+
+.two p {
+    padding: 5px;
+    font-weight: 600;
+}
+
+.two a {
+    color: #00b6d1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.white {
+    background-color: #FFFFFF;
+    height: 50vw;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 250px;
+    column-gap: 50px;
+    margin: auto;
+    position: relative;
+    left: 100px;
+    font-weight: 550;
+
+}
+
+.white ol li {
+    list-style: none;
+    display: grid;
+    padding: 8px 0 0;
+    color: #555555;
+
+}
+
+h4 {
+    color: black;
+}
+
+.white a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #555555;
+}
+
+.white ol {
+    margin-top: 80px;
+    position: relative;
+    left: 30px;
+
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+ol li input {
+    height: 40px;
+    width: 230px;
+    border-radius: 6px;
+    border: solid #8f8e8e 1px;
+    margin: 10px 0px;
+}
+
+ol li button {
+    height: 40px;
+    width: 230px;
+    border-radius: 6px;
+    border: none;
+    background-color: #00b6d1;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
